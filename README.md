@@ -13,7 +13,7 @@
 ​Formatting: Leverages std::iomanip and std::stringstream for clean, table-based UI rendering in the console.
 ​📊 Scoring Logic
 ​The engine uses a weighted scoring algorithm:
-You sent
+
 # 🎮 Number Guessing Game – Modern C++ Edition
 
 A feature-rich, console-based number guessing game written in *modern C++*.
@@ -63,7 +63,6 @@ Utilities ├── RandomGenerator ├── InputValidator
 Core Domain ├── Difficulty (enum class) ├── GameConfig ├── PlayerScore ├── Leaderboard
 Game Logic ├── GuessingGame
 Engine Layer ├── GameStatistics ├── GameEngine
-You sent
 The *GameEngine* orchestrates the application, while game logic, utilities, and persistence are clearly separated.
 
 ---
@@ -116,21 +115,21 @@ Bash
 ./guessing_game
 ```
 
-# 📊 Data Persistence
+## 📊 Data Persistence
 Leaderboard data is stored locally in leaderboard.txt
 Top 10 scores are kept and sorted automatically
 📈 Project Evolution
 Version 1: Simple procedural guessing game
 Version 2 (this repo): Modular, extensible, modern C++ refactor
 🔗 The original beginner version is preserved in a separate repository to show learning progression.
-# 🔮 Possible Future Improvements
+## 🔮 Possible Future Improvements
 Split code into header/source files
 Add unit tests
 Add CMake support
 Difficulty-specific leaderboards
 Cross-session player profiles
 Configurable scoring rules
-# 👤 Author
+## 👤 Author
 Arjhay De Chavez
 Beginner-to-intermediate C++ developer
 Interested in game development, engines, and systems programming
