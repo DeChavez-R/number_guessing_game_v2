@@ -1,4 +1,4 @@
-​🎮 C++ Number Guessing Engine v2.0
+# ​🎮 C++ Number Guessing Engine v2.0
 ​A robust, object-oriented CLI game engine featuring multiple difficulty levels, persistent leaderboards, and real-time session statistics. This project demonstrates intermediate C++ concepts including smart pointers, file serialization, and custom input validation.
 ​🚀 Features
 ​Dynamic Difficulty Scaling: Four distinct modes (Easy, Medium, Hard, Expert) with varying ranges and attempt limits.
@@ -112,21 +112,23 @@ Run
 Copy code
 Bash
 ./guessing_game
-📊 Data Persistence
+```
+
+# 📊 Data Persistence
 Leaderboard data is stored locally in leaderboard.txt
 Top 10 scores are kept and sorted automatically
 📈 Project Evolution
 Version 1: Simple procedural guessing game
 Version 2 (this repo): Modular, extensible, modern C++ refactor
 🔗 The original beginner version is preserved in a separate repository to show learning progression.
-🔮 Possible Future Improvements
+# 🔮 Possible Future Improvements
 Split code into header/source files
 Add unit tests
 Add CMake support
 Difficulty-specific leaderboards
 Cross-session player profiles
 Configurable scoring rules
-👤 Author
+# 👤 Author
 Arjhay De Chavez
 Beginner-to-intermediate C++ developer
 Interested in game development, engines, and systems programming
