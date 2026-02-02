@@ -107,8 +107,10 @@ The *GameEngine* orchestrates the application, while game logic, utilities, and 
 ### Compile
 ```bash
 g++ -std=c++17 main.cpp -o guessing_game
-You sent
-Run
+```
+
+### Run
+```
 Copy code
 Bash
 ./guessing_game
